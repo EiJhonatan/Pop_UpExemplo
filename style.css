@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.principal{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    background-color: brown;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.popup{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top: 0;
+    display: none;
+}
+
+.fechar{
+    background-color: black;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 40px;
+   position: absolute;
+   right: 20px;
+   top: 20px;
+}
+
+.fechar:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color: white;
+}
+
